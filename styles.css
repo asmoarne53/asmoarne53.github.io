@@ -157,3 +157,30 @@ a {
   margin: 8px 0 0;
   color: var
 
+.card-jornal-1,
+.card-jornal-2,
+.card-jornal-3 {
+  display: none;
+}
+
+#jornal-1:checked ~ .feature-area .card-jornal-1,
+#jornal-2:checked ~ .feature-area .card-jornal-2,
+#jornal-3:checked ~ .feature-area .card-jornal-3 {
+  display: block;
+}
+
+.aviso-jornal {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.card-jornal-2 a {
+  display: block;
+}
+
+.card-jornal-2 a:hover .media-img {
+  opacity: 0.92;
+  transform: scale(1.01);
+  transition: 0.2s ease;
+}
+
