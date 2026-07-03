@@ -155,7 +155,8 @@ a {
 
 .section-head p {
   margin: 8px 0 0;
-  color: var
+  color: var(--muted);
+}
 
 /* JORNAL */
 .jornal-layout input[type="radio"] {
@@ -223,4 +224,3 @@ a {
   transform: scale(1.01);
   transition: 0.2s ease;
 }
-  
