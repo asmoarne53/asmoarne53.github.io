@@ -123,17 +123,15 @@
     <section id="jornal" class="panel">
       <div class="section-head">
         <h2>Jornal</h2>
-        <p>
-          A mesma estrutura dos eventos, mas organizada por edições do jornal da associação.
-        </p>
-      </div>
+        <p>Escolha e Clique na Edição que deseja do Jornal da Associação:</p>
+        </div>
 
-<div class="switch-layout">
-  <input type="radio" name="jornal-tab" id="jornal-3" checked />
-  <input type="radio" name="jornal-tab" id="jornal-2" />
+<div class="switch-layout jornal-layout">
+  <input type="radio" name="jornal-tab" id="jornal-3" />
+  <input type="radio" name="jornal-tab" id="jornal-2" checked />
   <input type="radio" name="jornal-tab" id="jornal-1" />
 
-  <aside class="history-list">
+  <aside class="history-list jornal-lista">
     <label for="jornal-3" class="history-item">Edição 3</label>
     <label for="jornal-2" class="history-item">Edição 2</label>
     <label for="jornal-1" class="history-item">Edição 1</label>
@@ -141,6 +139,7 @@
 
   <div class="feature-area">
     <article class="story-card card-jornal-3">
+      <div class="topo-card-jornal"></div>
       <span class="card-badge">Em breve</span>
       <h3>Edição n.3</h3>
       <div class="media-box">
@@ -152,6 +151,7 @@
     </article>
 
     <article class="story-card card-jornal-2">
+      <div class="topo-card-jornal"></div>
       <span class="card-badge">Mais recente</span>
       <h3>Edição n.2</h3>
       <a
@@ -171,6 +171,7 @@
     </article>
 
     <article class="story-card card-jornal-1">
+      <div class="topo-card-jornal"></div>
       <span class="card-badge">Histórico</span>
       <h3>Edição n.1</h3>
       <img
